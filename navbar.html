@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar items</title>  
+    <title>Navbar items</title>
+    .navbar{
+    background: black;
+    display: grid;
+    column-gap: 15px;
+    }
+    .items{
+    background: blue;
+    grid-area: items;
+    displat:flex;
+    }
 </head>
 <body bg-color="black">
-    <div class="nav-bar">
-        <div class="nav-items">
-            <div class="row">
-                <div class="row-col1">Home</div>
-                <div class="row-col2">Docs</div>
-                <div class="row-col2">Example</div>
-                <div class="row-col2">Contact us</div>
+    <div class="navbar">
+        <div class="items">
+            <div class="items">
+                <div>Home</div>
+                <div>Docs</div>
+                <div>Example</div>
+                <div>Contact us</div>
             </div>
         </div>
     </div>
